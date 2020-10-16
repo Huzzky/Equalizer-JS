@@ -9,7 +9,20 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0%;
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 100%;
     background: #1e1e1e;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
